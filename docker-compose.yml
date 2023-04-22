@@ -7,7 +7,7 @@ services:
     restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /portainer_data:/opt/portainer
+      - /portainer_data:/data
     ports:
       - 8000:8000
       - 9443:9443
